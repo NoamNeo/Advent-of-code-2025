@@ -1,0 +1,45 @@
+##All these should give exactly 1
+
+#Basic pass to the left
+L75
+R20
+
+#Basic pass to the right
+R75
+L20
+
+#Left ending on zero
+L50
+R50
+
+L50
+L50
+
+#Right ending on zero
+R50
+R50
+
+R50
+L50
+
+##All these should give exactly 2
+
+#Basic pass to the left
+L200
+
+#Basic pass to the right
+R200
+
+#Extra pass Left landing on zero
+L150
+L50
+
+L150
+R50
+
+#Extra pass Right landing on zero
+R150
+L50
+
+R150
+R50
